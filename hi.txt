@@ -1,0 +1,10 @@
+
+It cost me a little bit to understand what was the difference, but this is a simple explanation. master in your localhost is a branch.
+
+When you clone a repository you fetch the entire repository to you local host. This means that at that time you have an origin/master pointer to HEAD and master pointing to the same HEAD.
+
+when you start working and do commits you advance the master pointer to HEAD + your commits. But the origin/master pointer is still pointing to what it was when you cloned.
+
+So the difference will be:
+
+If you do a git fetch it will just fetch all the changes in the remote repository (GitHub) and move the origin/master pointer to HEAD. Meanwhile your local branch master will keep pointing to where it has.
