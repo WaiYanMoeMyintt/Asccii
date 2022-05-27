@@ -1,3 +1,16 @@
 
 I love fucking coffe
+<<<<<<< HEAD
 
+=======
+I love fucking coffe
+
+I love fucking coffe
+
+I love fucking coffe
+I love fucking coffe
+I love fucking coffe
+I love fucking coffe
+I love fucking coffe
+I love fucking coffe
+>>>>>>> 143de656b7ca30f9925c4e4b9224db98656bfa13
